@@ -1,0 +1,59 @@
+body{
+    background-color: #242424;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    width: 136px;
+    padding: 10px;
+}
+
+header{
+    background-color: #242424;
+    height: 50px;
+}
+
+.splash{
+    background: url(../img/splash.png) fixed;
+    width: 100%;
+    /*2096 × 556*/
+    height: 556px;
+    background-size: cover;
+}
+
+h2, h3{
+    color: white;
+    text-align: center;
+}
+
+#principal{
+    margin: 50px;
+}
+
+.principal {
+    width: 100%;
+    height: 232px;
+}
+
+#capitulos
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.capitulo
+{
+    width: 250px;
+    height: 232px;
+    margin: 20px;
+}
+
+footer{
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
